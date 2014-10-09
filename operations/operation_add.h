@@ -4,7 +4,7 @@
 
 #include "../operation.h"
 
-#define OPERATION_ADD 8
+#define OPERATION_ADD 0
 
 extern struct operation_interface operation_add_implementation;
 

@@ -5,3 +5,7 @@ Program:
 
 test: Program
 	./Program
+
+
+clean:
+	rm -rf Program

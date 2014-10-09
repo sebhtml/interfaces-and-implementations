@@ -11,12 +11,18 @@ void operation_init(struct operation *self, int implementation)
     {
         self->implementation = &operation_add_implementation;
     }
-    /*
     else if (implementation == OPERATION_SUBSTRACT)
     {
         self->implementation = &operation_substract_implementation;
     }
-    */
+    else if (implementation == OPERATION_DIVIDE)
+    {
+        self->implementation = &operation_divide_implementation;
+    }
+    else if (implementation == OPERATION_MULTIPLY)
+    {
+        self->implementation = &operation_multiply_implementation;
+    }
 }
 
 void operation_destroy(struct operation *self)

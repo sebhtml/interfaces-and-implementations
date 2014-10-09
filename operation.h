@@ -5,7 +5,9 @@
 #include "operation_interface.h"
 
 #include "operations/operation_add.h"
-//#include "operations/operation_substract.h"
+#include "operations/operation_substract.h"
+#include "operations/operation_divide.h"
+#include "operations/operation_multiply.h"
 
 struct operation
 {
